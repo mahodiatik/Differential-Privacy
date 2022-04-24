@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(1, 1, 31);
+}
+.chart{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.Headline{
+    color: aliceblue;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+canvas{
+    max-width: 400px;
+}
+
+button{
+    background-color: rgb(15, 93, 176);
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    stroke: aliceblue;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rendered-form{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    max-height: 5px;
+}
+
+

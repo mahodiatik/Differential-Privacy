@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+        integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <title>Differential Privacy</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="Headline">
+            Differential Privacy
+        </div>
+        <div class="chart">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="rendered-form">
+            <div class="formbuilder-button form-group field-increase-btn">
+                <button type="button" class="btn btn-primary" name="increase-btn" access="false"
+                    id="increase-btn">Increase Noise</button>
+            </div>
+            <div class="formbuilder-button form-group field-decrease-btn">
+                <button type="button" class="btn-danger btn" name="decrease-btn" access="false"
+                    id="decrease-btn">Decrease Noise</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
